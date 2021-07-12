@@ -63,7 +63,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
               <th>No</th>
               <th>Nama Penyakit</th>
 			  <th>Detail Penyakit</th>
-			  <th>Saran Penyakit</th>
+			  <th>Langkah Pengobatan</th>
               <th>Aksi</th>
             </tr>
           </thead>
@@ -123,7 +123,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 			 <td align=center>$no</td>
 			 <td>$r[nama_penyakit]</td>
 			 <td>$r[det_penyakit]</td>
-			 <td>$r[lang_pengobatan]</td>
+			 <td>$r[srn_penyakit]</td>
 			 <td align=center>
 			 <a type='button' class='btn btn-block btn-success' href=penyakit/editpenyakit/$r[kode_penyakit]><i class='fa fa-pencil-square-o' aria-hidden='true'></i> Ubah </a> &nbsp;
 	          <a type='button' class='btn btn-block btn-danger' href=\"JavaScript: confirmIt('Anda yakin akan menghapusnya ?','$aksi?module=penyakit&act=hapus&id=$r[kode_penyakit]','','','','u','n','Self','Self')\" onMouseOver=\"self.status=''; return true\" onMouseOut=\"self.status=''; return true\">
@@ -179,7 +179,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
           <br><br><table class='table table-bordered'>
 		  <tr><td width=120>Nama Penyakit</td><td><input autocomplete='off' type=text placeholder='Masukkan penyakit baru...' class='form-control' name='nama_penyakit' size=30></td></tr>
 		  <tr><td width=120>Detail Penyakit</td><td> <textarea rows='4' cols='50' class='form-control' name='det_penyakit'type=text placeholder='Masukkan detail penyakit baru...'></textarea></td></tr>
-		  <tr><td width=120>Saran Penyakit</td><td><textarea rows='4' cols='50' class='form-control' name='srn_penyakit'type=text placeholder='Masukkan saran penyakit baru...'></textarea></td></tr>
+		  <tr><td width=120>Langkah Pengobatan</td><td><textarea rows='4' cols='50' class='form-control' name='srn_penyakit'type=text placeholder='Masukkan saran penyakit baru...'></textarea></td></tr>
           <tr><td width=120>Gambar Post</td><td>Upload Gambar (Ukuran Maks = 1 MB) : <input type='file' class='form-control' name='gambar' required /></td></tr>		  
           <tr><td></td><td><input class='btn btn-success' type=submit name=submit value='Simpan' >
 		  <input class='btn btn-danger' type=button name=batal value='Batal' onclick=\"window.location.href='?module=penyakit';\"></td></tr>
@@ -200,7 +200,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
           <br><br><table class='table table-bordered'>
 		  <tr><td width=120>Nama Penyakit</td><td><input autocomplete='off' type=text class='form-control' name='nama_penyakit' size=30 value=\"$r[nama_penyakit]\"></td></tr>
 		  <tr><td width=120>Detail Penyakit</td><td><textarea rows='4' cols='50' type=text class='form-control' name='det_penyakit'>$r[det_penyakit]</textarea></td></tr>
-		  <tr><td width=120>Saran Penyakit</td><td><textarea rows='4' cols='50' type=text class='form-control' name='srn_penyakit'>$r[srn_penyakit]</textarea></td></tr>
+		  <tr><td width=120>Langkah Pengobatan</td><td><textarea rows='4' cols='50' type=text class='form-control' name='srn_penyakit'>$r[srn_penyakit]</textarea></td></tr>
           <tr><td width=120>Gambar Post</td><td>Upload Gambar (Ukuran Maks = 1 MB) : <input id='upload' type='file' class='form-control' name='gambar' required /></td></tr>
           <tr><td></td><td><img id='preview' src='$gambar' width=200></td></tr>          
           <tr><td></td><td><input class='btn btn-success' type=submit name=submit value='Simpan' >
