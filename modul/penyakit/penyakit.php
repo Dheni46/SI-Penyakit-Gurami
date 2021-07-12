@@ -104,7 +104,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
               <th>No</th>
               <th>Nama Penyakit</th>
 			  <th>Detail Penyakit</th>
-			  <th>Saran Penyakit</th>
+			  <th>Langkah Pengobatan</th>
               <th>Aksi</th>
             </tr>
           </thead>
@@ -123,7 +123,7 @@ if (!(isset($_SESSION['username']) && isset($_SESSION['password']))) {
 			 <td align=center>$no</td>
 			 <td>$r[nama_penyakit]</td>
 			 <td>$r[det_penyakit]</td>
-			 <td>$r[srn_penyakit]</td>
+			 <td>$r[lang_pengobatan]</td>
 			 <td align=center>
 			 <a type='button' class='btn btn-block btn-success' href=penyakit/editpenyakit/$r[kode_penyakit]><i class='fa fa-pencil-square-o' aria-hidden='true'></i> Ubah </a> &nbsp;
 	          <a type='button' class='btn btn-block btn-danger' href=\"JavaScript: confirmIt('Anda yakin akan menghapusnya ?','$aksi?module=penyakit&act=hapus&id=$r[kode_penyakit]','','','','u','n','Self','Self')\" onMouseOver=\"self.status=''; return true\" onMouseOut=\"self.status=''; return true\">
