@@ -25,17 +25,14 @@
   <div class="ma3">
   <article class="tc w-75 center pt5 pb2 ph3 mw6-ns ba bw1 b--light-gray" style="background: #fff;">
     <header class="mb4">
-		<img class="br-100" src="favicon.png" alt="Profile headshot" />
-      <h1 class="f3 lh-title mv2">Certainty Factor V.2</h1>
+		
+    
 	   <h2 class="f5 mt2 mb1">Implementasi Sistem Pakar Metode Certainty Factor</h2>
-	  <h2 class="f5 mt2 mb1">Copyright © 2020 <a class="link dim"><a href="http://www.mycoding.net">My Coding</a></h2>
+	 
 	  <br>
-      <a class="link dim"  style="font-size: 40px;"><i class="fa fa-chrome" aria-hidden="true"></i></a>
-      <a class="link dim"  style="font-size: 40px;"><i class="fa fa-firefox" aria-hidden="true"></i></a>
-      <a class="link dim"  style="font-size: 40px;"><i class="fa fa-edge" aria-hidden="true"></i></a>
-	  <a class="link dim"  style="font-size: 40px;"><i class="fa fa-safari" aria-hidden="true"></i></a>
+      
     </header>
-    <p class="f6 tl lh-copy" style="margin: 20px;">Sistem pakar yang mampu mendiagnosa penyakit pada ayam berdasarkan pengetahuan yang diberikan langsung dari pakar/ahlinya dan melalui studi  literatur. Penelitian ini menggunakan metode perhitungan Certainty Factor (CF) dalam menghitung tingkat kepakaran. Data penelitian ini terdiri dari data gejala dan data penyakit ayam, serta data aturan. Sistem pakar pada organisasi ditujukan  untuk penambahan  value, peningkatan produktivitas serta area manajerial yang dapat mengambil kesimpulan dengan cepat.</p>
+    <p class="f6 tl lh-copy" style="margin: 20px;">Sistem pakar yang mampu mendiagnosa penyakit pada ikan gurami berdasarkan pengetahuan yang diberikan langsung dari pakar/ahlinya dan melalui studi  literatur. Penelitian ini menggunakan metode perhitungan Certainty Factor (CF) dalam menghitung tingkat kepakaran. Data penelitian ini terdiri dari data gejala dan data penyakit Ikan Gurami, serta data aturan. Sistem pakar pada organisasi ditujukan  untuk penambahan  value, peningkatan produktivitas serta area manajerial yang dapat mengambil kesimpulan dengan cepat.</p>
     <p/>
     <p class="f6 tl lh-copy" style="margin: 20px;">Certainty Factor (CF) merupakan salah satu teknik yang digunakan untuk mengatasi ketidakpastian dalam pengambilan keputusan. Certainty Factor (CF) dapat terjadi dengan berbagai kondisi.</p>
     <p/>

@@ -1,4 +1,4 @@
-<title>Pengetahuan - Certainty Factor V.2</title>
+
 <?php
 
 session_start();
@@ -211,10 +211,10 @@ switch($_GET[act]){
 				<b>CF(Pakar) = MB – MD</b><br>
 				MB : Ukuran kenaikan kepercayaan (measure of increased belief) MD : Ukuran kenaikan ketidakpercayaan (measure of increased disbelief) <br> <br>
 				<b>Contoh:</b><br>
-				Jika kepercayaan <b>(MB)</b> anda terhadap gejala Mencret keputih-putihan untuk penyakit Berak Kapur adalah <b>0.8 (Hampir Pasti)</b><br>
-				Dan ketidakpercayaan <b>(MD)</b> anda terhadap gejala Mencret keputih-putihan untuk penyakit Berak Kapur adalah <b>0.2 (Hampir Mungkin)</b><br><br>
+				Jika kepercayaan <b>(MB)</b> anda terhadap gejala Mata Terlihat Keruh dan Menonjol untuk penyakit Ichthyophthiriasis adalah <b>0.8 (Hampir Pasti)</b><br>
+				Dan ketidakpercayaan <b>(MD)</b> anda terhadap gejala Mata Terlihat Keruh dan Menonjol untuk penyakit Ichthyophthiriasis adalah <b>0.2 (Hampir Mungkin)</b><br><br>
 				<b>Maka:</b> CF(Pakar) = MB – MD (0.8 - 0.2) = <b>0.6</b> <br>
-				Dimana nilai kepastian anda terhadap gejala Mencret keputih-putihan untuk penyakit Berak Kapur adalah <b>0.6 (Kemungkinan Besar)</b>
+				Dimana nilai kepastian anda terhadap gejala Mata Terlihat Keruh dan Menonjol untuk penyakit Ichthyophthiriasisr adalah <b>0.6 (Kemungkinan Besar)</b>
               </div>
           <form name=text_form method=POST action='$aksi?module=pengetahuan&act=input' onsubmit='return Blank_TextField_Validator()'>
           <br><br><table class='table table-bordered'>
